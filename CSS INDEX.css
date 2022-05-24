@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header, section, footer, aside, nav, article, figcaption, hgroup{
+	display:block;
+}
+
+
+
+#cabeza {
+	background: #999;
+	border: 1px solid #99F;
+	padding:20px;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #00F ;
+	text-align:center;
+	font-weight:bold;
+}
+
+#menu li{
+	display: inline-block;
+	list-style: none;
+	padding:5px;
+	font: bold 14px verdana, sans-serif;
+	text-align:center;
+}
+
+#menu{
+	background: #069;
+	padding: 5px 15px;
+	text-align:center;
+}
+
+#principal{
+	float: left;
+	width:1000px;
+	margin:20px;
+}
+
+#lateral{
+	float: left;
+	width:250px;
+	margin:20px 0px;
+	padding:20px;
+	background: #63F;
+	border: 5px solid #99F;
+	text-align:center;
+}
+
+#abajo{
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top: 2px solid #003;
+}
+
+h1{
+	font:bold 20px Verdana, Geneva, sans-serif;
+	color:#00F;
+	text-align:center;
+}
+
+h2{
+	font:bold 16px "Times New Roman", Times, serif;
+	color:#039;
+	text-align:center;
+	
+}
+
+article{
+	background: #99F;
+	border: 10px solid #003;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer{
+	text-align:right;
+}
+
+figcaption{
+	font: italic 14px Verdana, Geneva, sans-serif;
+}
+
+
+#button {
+	padding: 0;
+}
+
+#button li{
+	display: inline;
+}
+
+#button li a {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	text-decoration:blink;
+	float:inherit;
+	padding:1px;
+	background-color:#036;
+	color:#FFF;
+}
+
+
+#button li a:hover {
+	background-color:#66F;
+	margin-top:-2;
+	padding-bottom:12px;
+	color:#C6F;
+}
+
+p {
+	font-size:16px;
+}
